@@ -1,11 +1,36 @@
-.cardContainer{
+.accomodationCard{
     border-radius: 6px;
 border: 1px solid #C8C8C8;
 background: #F0F0F0;
 display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 width: 100%;
 height: 226px;
 align-items: center;
-gap: 10px;
 flex-shrink: 0;
+padding: 10px;
 }
+.accomodationCard .imageArea{
+    position: relative;
+  display: inline-block;
+  width: 30%;
+}
+
+.accomodationCard .imageArea img{
+    width: 100%;
+    height: 200px;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 8px; /* To center the icon on the corner */
+  }
+
+  .accomodationCard .infoArea{
+    width: 50%;
+    padding: 1.2rem 1rem;
+    border: 1px solid grey;
+  }

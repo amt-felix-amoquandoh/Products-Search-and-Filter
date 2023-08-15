@@ -7,6 +7,8 @@ export interface Accomodations {
     mapUrl: string;
     price: number;
     description: string;
+    locationName: string;
+    mapName: string
   }
   
   export const accomodationList: Accomodations[] = [
@@ -16,7 +18,9 @@ export interface Accomodations {
       location: "navLinks",
       description: "activeItem",
       price: 456,
-      mapUrl: "activeItem"
+      mapUrl: "activeItem",
+      mapName: "activeItem",
+      locationName: "activeItem"
     },
     {
       title: "Dashboard",
@@ -24,7 +28,9 @@ export interface Accomodations {
       location: "navLinks",
       description: "activeItem",
       price: 456,
-      mapUrl: "activeItem"
+      mapUrl: "activeItem",
+      mapName: "activeItem",
+      locationName: "activeItem"
     },
     {
       title: "Cart",
@@ -32,7 +38,9 @@ export interface Accomodations {
       location: "navLinks",
       description: "activeItem",
       price: 456,
-      mapUrl: "activeItem"
+      mapUrl: "activeItem",
+      mapName: "activeItem",
+      locationName: "activeItem"
     },
     
       {
@@ -41,7 +49,9 @@ export interface Accomodations {
         location: "navLinks",
         description: "activeItem",
         price: 456,
-        mapUrl: "activeItem"
+        mapUrl: "activeItem",
+        mapName: "activeItem",
+        locationName: "activeItem"
       },
       {
         title: "Customer",
@@ -49,7 +59,9 @@ export interface Accomodations {
         location: "navLinks",
         description: "activeItem",
         price: 456,
-        mapUrl: "activeItem"
+        mapUrl: "activeItem",
+        mapName: "activeItem",
+        locationName: "activeItem"
       },
       {
         title: "Business",
@@ -57,7 +69,9 @@ export interface Accomodations {
         location: "navLinks",
         description: "activeItem",
         price: 456,
-        mapUrl: "activeItem"
+        mapUrl: "activeItem",
+        mapName: "activeItem",
+        locationName: "activeItem"
       },
       {
         title: "Home",
@@ -65,7 +79,9 @@ export interface Accomodations {
         location: "navLinks",
         description: "activeItem",
         price: 456,
-        mapUrl: "activeItem"
+        mapUrl: "activeItem",
+        mapName: "activeItem",
+        locationName: "activeItem"
       },
       {
         title: "Home",
@@ -73,7 +89,9 @@ export interface Accomodations {
         location: "navLinks",
         description: "activeItem",
         price: 456,
-        mapUrl: "activeItem"
+        mapUrl: "activeItem",
+        mapName: "activeItem",
+        locationName: "activeItem"
       },
       {
         title: "Home",
@@ -81,7 +99,9 @@ export interface Accomodations {
         location: "navLinks",
         description: "activeItem",
         price: 456,
-        mapUrl: "activeItem"
+        mapUrl: "activeItem",
+        mapName: "activeItem",
+        locationName: "activeItem"
       },
       {
         title: "Home",
@@ -89,7 +109,9 @@ export interface Accomodations {
         location: "navLinks",
         description: "activeItem",
         price: 456,
-        mapUrl: "activeItem"
+        mapUrl: "activeItem",
+        mapName: "activeItem",
+        locationName: "activeItem"
       },
       {
         title: "Home",
@@ -97,7 +119,9 @@ export interface Accomodations {
         location: "navLinks",
         description: "activeItem",
         price: 456,
-        mapUrl: "activeItem"
+        mapUrl: "activeItem",
+        mapName: "activeItem",
+        locationName: "activeItem"
       },
       {
         title: "Home",
@@ -105,7 +129,9 @@ export interface Accomodations {
         location: "navLinks",
         description: "activeItem",
         price: 456,
-        mapUrl: "activeItem"
+        mapUrl: "activeItem",
+        mapName: "activeItem",
+        locationName: "activeItem"
       }
     //   
   ];
