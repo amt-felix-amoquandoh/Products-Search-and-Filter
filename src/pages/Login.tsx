@@ -38,7 +38,7 @@ const Login: React.FC = () => {
     // Handle form submission here,
     const response = await postRequest("/customer-auth/login", formData);
 
-    const { accessToken, data, refreshToken } = response;
+    const { accessToken, refreshToken } = response;
 
     //TODO: setup store(redux or contextAPI) and save data
     localStorage.setItem("accessToken", accessToken);

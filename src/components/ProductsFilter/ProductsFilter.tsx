@@ -1,5 +1,6 @@
 import React from 'react';
 import "./productsFilter.css";
+import AccomodationCards from '../Cards/AccomdationCards';
 
 
 const ProductsFilter: React.FC = () => {
@@ -9,7 +10,9 @@ const ProductsFilter: React.FC = () => {
      <div className='filters'>
       <p>Filter by:</p>
      </div>
-     <div className='products'></div>
+     <div className='products'>
+      <AccomodationCards />
+     </div>
     </div>
     </>
   );

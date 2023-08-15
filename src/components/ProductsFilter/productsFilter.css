@@ -2,6 +2,10 @@
     width: 100%;
     display: flex;
     gap: 0.6rem;
+    height: 2178px;;
+    overflow-y: scroll;
+    scrollbar-width: none; /* For Firefox */
+   -ms-overflow-style: none;
 }
 
 .filterContainer .filters{
@@ -30,6 +34,19 @@ margin-top: auto;
 .filterContainer .products{
     width: 70%;
     border: 1px solid black;
-    height: 2178px;
-    overflow-y: scroll;
+   
 }
+
+.filterContainer::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  /* Optionally style the scrollbar track and thumb for WebKit */
+.filterContainer::-webkit-scrollbar-track {
+    background: transparent; /* You can change this color */
+  }
+  
+  .filterContainer::-webkit-scrollbar-thumb {
+    background: transparent; /* You can change this color */
+  }
