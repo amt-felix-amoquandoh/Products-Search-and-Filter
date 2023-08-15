@@ -32,5 +32,72 @@ padding: 10px;
   .accomodationCard .infoArea{
     width: 50%;
     padding: 1.2rem 1rem;
-    border: 1px solid grey;
+   
+  }
+
+  .accomodationCard .infoArea h3{
+    color: var(--primary, #3D3939);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+  .accomodationCard .infoArea .cardLinks a{
+    color: var(--primary, #B75C76);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+margin-right: 15px;
+  }
+
+  .accomodationCard .infoArea p{
+    color: #3D3939;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+  }
+
+  .accomodationCard .priceArea{
+      width: 20%;
+     
+      margin-left: auto;
+      margin-bottom: auto;
+  }
+
+  .accomodationCard .priceArea button{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+            display: flex;
+          width: auto;
+          height: 40px;
+          padding: 3px 16px;
+          justify-content: center;
+          align-items: center;
+          flex-shrink: 0;
+          border-radius: 6px;
+          border: none;
+          background: #B75C76;
+          color: #fff;
+          margin-left: auto;
+  }
+
+  .accomodationCard .priceArea p, .accomodationCard .priceArea p span{
+    color: var(--primary, #3D3939);
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
   }

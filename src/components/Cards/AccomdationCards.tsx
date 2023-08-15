@@ -34,7 +34,16 @@ const AccomodationCards: React.FC = () => {
               </div>
               <p>Lorem ipsum dolor sit amet consectetur. Fermentum in tortor mattis viverra iaculis nibh. Ac ultrices aliquet est facilisi fusce enim quis id felis.</p>
             </div>
-            <div className="priceArea"></div>
+            <div className="priceArea">
+            <div>
+            <button className="availableButton">
+             See Avalilability
+           </button>
+            </div>
+             <div>
+             <p>$<span>345.00</span></p>
+             </div>
+            </div>
          </div>
       </div>
    </>    

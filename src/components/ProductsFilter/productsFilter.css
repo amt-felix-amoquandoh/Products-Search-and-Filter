@@ -32,9 +32,7 @@ margin-top: auto;
 }
 
 .filterContainer .products{
-    width: 70%;
-    border: 1px solid black;
-   
+    width: 70%;   
 }
 
 .filterContainer::-webkit-scrollbar {
