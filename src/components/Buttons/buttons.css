@@ -1,0 +1,103 @@
+/* Add these styles to your CSS file */
+.dropdownArea {
+  position: relative; /* Make the parent div relative */
+  display: inline-block;
+}
+
+.navMenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #fff; /* Add background color for dropdown */
+  border: 1px solid #ccc; /* Add border for dropdown */
+  border-radius: 4px;
+  position: absolute;
+  top: 100%; /* Position the dropdown below the parent div */
+  left: 0;
+  width: 150px; /* Set the width of the dropdown */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1; /* Ensure the dropdown appears above other elements */
+}
+
+.navMenu li {
+  padding: 8px 12px;
+}
+
+.navMenu li:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+/* If you want to style the links inside the dropdown */
+.navMenu li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.navMenu li a:hover {
+  color: #555;
+}
+
+.dropdownArea span {
+  margin-right: 10px;
+  color: var(--fontColor);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  list-style: none;
+  text-decoration: none;
+}
+
+.basicBtn {
+  display: flex;
+  padding: 10px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  width: 80px;
+  height: 40px;
+}
+
+.basicBtn .btnLink {
+  text-decoration: none;
+  color: var(--fontColor);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.dropButton {
+  display: flex;
+  width: 124px;
+  height: 40px;
+  padding: 3px 16px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: none;
+  background: #b75c76;
+  color: #fff;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 550px) {
+  .dropButton {
+    width: 80px;
+    height: 30px;
+  }
+
+  .dropButton span {
+    font-size: 10px;
+  }
+
+  .dropButton svg {
+    display: none;
+  }
+}

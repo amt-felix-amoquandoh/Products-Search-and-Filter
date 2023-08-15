@@ -1,0 +1,60 @@
+.discoverTextArea h1{
+    color: #3D3939;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: -0.45rem;
+}
+
+.discoverTextArea p{
+    color: #3D3939;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.discoverTextArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.discover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+
+@media screen and (max-width: 550px) {
+    .discover{
+        margin-top: -1.5rem;
+    }
+    .discoverTextArea h1{
+        color: #3D3939;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: -0.3rem;
+    }
+
+    .discoverTextArea p{
+        color: #3D3939;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 0;
+    }
+}

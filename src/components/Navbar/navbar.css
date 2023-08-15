@@ -1,0 +1,178 @@
+.listItemsBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.navitem {
+  color: var(--fontColor);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  list-style: none;
+  text-decoration: none;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-link {
+  color: var(--primary, #3d3939);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.activelink {
+  color: #6b70bd;
+  text-decoration-line: underline;
+}
+
+.registration {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mediaNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 112px;
+  height: 72px;
+  background: #f1f1f1;
+}
+
+.mediaNavbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 292px;
+}
+
+.mediaNavbar-links_container {
+  display: flex;
+  flex-direction: row;
+  padding-right: 0px;
+  align-items: center;
+}
+
+.mediaNavbar-sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.mediaNavbar-menu {
+  margin-left: 1rem;
+
+  display: none;
+  position: relative;
+}
+
+.mediaNavbar-menu svg {
+  cursor: pointer;
+}
+
+.mediaNavbar-menu_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  top: 60px;
+  margin-top: 1.6rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.mediaNavbar-menu_container p {
+  margin: 1rem 0;
+}
+
+.mediaNavbar-menu_container-links-sign {
+  display: none;
+}
+
+@media screen and (max-width: 1250px) {
+  .mediaNavbar-links {
+    gap: 112px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .mediaNavbar-links_container {
+    display: none;
+  }
+
+  .mediaNavbar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .mediaNavbar {
+    padding: 1rem 4rem;
+    background-color: white;
+  }
+
+  .listItemsBox {
+    flex-direction: column;
+  }
+
+  .mediaNavbar-menu_container {
+    top: 18px;
+    right: -170px;
+    background-color: #b75c76;
+    position: absolute;
+    z-index: 10;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .mediaNavbar {
+    padding: 0.8rem;
+    height: 58px;
+  }
+
+  .mediaNavbar-sign .registration .login {
+    display: none;
+  }
+
+  .mediaNavbar-menu_container {
+    top: 18px;
+    right: -170px;
+    background-color: #b75c76;
+    position: absolute;
+  }
+
+  .mediaNavbar-menu_container-linkssign {
+    display: flex;
+  }
+
+  .listItemsBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+  }
+}

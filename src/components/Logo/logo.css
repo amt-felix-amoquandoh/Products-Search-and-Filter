@@ -1,0 +1,38 @@
+.logoContainer{
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.logoImage{
+    width: 40px;
+height: 40px;
+flex-shrink: 0;
+}
+
+.logoText{
+    color: #464B93;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 61px;
+height: 10px;
+flex-shrink: 0;
+margin-left: -12px; 
+margin-top:  auto;
+}
+
+
+@media screen and (max-width: 700px) {
+    .logoContainer{
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .logoContainer{
+        margin-left: rem;
+    }
+}

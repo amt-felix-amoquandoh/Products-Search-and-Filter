@@ -1,0 +1,132 @@
+.swiperContainer{
+display: flex;
+width: 80%;
+padding: 8px 0px;
+justify-content: center;
+align-items: flex-start;
+gap: 8px;
+overflow: hidden;
+
+}
+
+.swiper {
+    width: 100%;
+    height: auto;  
+    overflow: hidden; 
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    max-width: 15.9375rem;
+    box-sizing: border-box;
+    margin: 0px 40px 0px 0px;
+  }
+  
+  .swiper-slide .swiper-wrapper {
+    max-width: 19%;
+    overflow: hidden;
+  }
+
+  .swiper-slide .swiper-wrapper img {
+    display: block;
+    width: 15.9375rem;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Replace "image-url.jpg" with the actual URL of your background image */
+.card-container {
+    width: 15.9375rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: 15.9375rem;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    position: absolute; /* Position the content absolutely within the container */
+    bottom: 0; /* Align the content to the bottom */
+    left: 0;
+    right: 0;
+    padding: 16px;
+  }
+  
+  .card-content h5 {
+    text-align: start;
+    font-weight: bold;
+    margin: 0;
+    font-size: 16px;
+    color: #fff; /* Set the text color to white */
+  }
+  
+
+
+
+  @media screen and (max-width: 550px){
+    .card-container {
+      width: 100%;
+    }
+
+    .swiper-slide {
+      max-width: 64%; 
+      margin: 0px 20px 0px 0px;     
+    }
+
+    .card-image img {
+      height: auto;
+    }
+    
+    .card-content h5 {
+      font-size: 12px;     
+    }
+
+    .swiperContainer{
+      width: 90%;  
+      }
+
+      .card-content{
+        padding: 6px;
+      
+      }
+  }
+
+  @media screen and (max-width: 820px){
+    .card-container {
+      width: 100%;
+    }
+
+    .swiper-slide {
+      max-width: auto; 
+      margin: 0px 20px 0px 0px;     
+    }
+
+   
+  }
+
+  @media screen and (max-width: 1250px){
+    .swiperContainer{
+      width: 100%;
+      padding: 1px 5vw;
+    }
+    
+    .card-container {
+      width: 100%;
+    }
+
+    .swiper-slide {
+      max-width: 38%; 
+      margin: 0px 20px 0px 0px;     
+    }
+
+    .card-image img {
+      height: auto;
+    }
+    
+  }

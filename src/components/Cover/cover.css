@@ -1,0 +1,167 @@
+.coverframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:1216px;
+    height: auto;
+    padding: 36px 74px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 0px auto 2.4rem auto;
+    background-color: #f1f1f1;
+}
+
+.covercontent{
+max-height: auto;
+width: 100%;
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+flex-direction: row;
+align-items: center;
+}
+
+.imgBox, .coverText{
+    width: 50%;
+}
+
+.coverText{
+    display: flex;
+    width: 401px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+    gap: 1rem;
+}
+
+.coverText p{
+color: var(--fontColor);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.description span{
+    color: var(--fontColor);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+
+line-height: normal;
+}
+
+.coverbutton button{
+    color: #FFF;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;    
+        display: flex;
+      width: 124px;
+      height: 40px;
+      padding: 3px 16px;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+      border-radius: 6px;
+      border: none;
+      background: #B75C76;
+      color: #fff;
+}
+
+.coverbutton{
+    text-align: flex-start;
+}
+
+.coverdata{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ gap: auto;
+ width: auto;
+ width: 401px;
+}
+
+.coverdata span{
+ color: var(--fontColor);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.coverdata span:nth-child(2) {
+    margin-left: auto;
+  }
+  
+  @media screen and (max-width: 1250px){
+     .coverframe{
+        max-width: auto;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        margin: 1px 5vw 2rem 5vw;
+     }
+
+     .imgBox, .coverText{
+        width: 45%;
+    }
+
+    .imgBox img{
+        width: 100%;
+    }
+
+    .coverdata{
+        max-width: 280px;
+    }
+     
+  }
+
+  @media screen and (max-width: 850px){
+    .covercontent{
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .imgBox, .coverText{
+        width: 80%;
+    }
+
+    .coverText p {
+        font-size: 16px;
+    }
+
+    .coverText .description span{
+        font-size: 12px;
+    }
+
+    .coverText .coverdata span{
+       font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 550px){
+    .coverframe{
+     width: 90%;
+     margin: 1px 5vw 2rem 5vw;    
+    }
+
+    .covercontent{
+        height: auto;
+    }
+
+    .imgBox, .coverText{
+        width: 90%;
+    }
+
+    .coverframe img{
+        width: 100%;
+    }
+  }
