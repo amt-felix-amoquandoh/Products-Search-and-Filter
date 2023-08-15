@@ -66,9 +66,10 @@ line-height: normal;
 
   .accomodationCard .priceArea{
       width: 20%;
-     
-      margin-left: auto;
       margin-bottom: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
   }
 
   .accomodationCard .priceArea button{

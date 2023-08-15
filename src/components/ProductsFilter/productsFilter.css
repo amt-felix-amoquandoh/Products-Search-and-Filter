@@ -10,12 +10,11 @@
 
 .filterContainer .filters{
     width: 30%;
-    border: 1px solid #3D3939;
     height: auto;
 }
 
-.filterContainer .filters p{
-    color: var(--primary, #3D3939);
+.filterContainer .filters .filtercontent{
+color: var(--primary, #3D3939);
 font-family: Inter;
 font-size: 16px;
 font-style: normal;
@@ -24,11 +23,21 @@ line-height: normal;
 border-radius: 6px 6px 0px 0px;
 border: 1px solid var(--primary, #D9D9D9);
 display: inline-flex;
+flex-direction: column;
 padding: 7px 16px;
 align-items: flex-start;
-gap: 10px;
 width: 100%;
 margin-top: auto;
+height: auto;
+}
+
+.filterContainer .filters .filtercontent h6{
+  color: var(--primary, #3D3939);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 
 .filterContainer .products{
@@ -47,4 +56,22 @@ margin-top: auto;
   
   .filterContainer::-webkit-scrollbar-thumb {
     background: transparent; /* You can change this color */
+  }
+
+  .checkInputs{
+    min-width: 250%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .itemsnumber{
+    margin-left: auto;
+  }
+
+  .checkInput{
+    width: 22.849px;
+height: 18px;
+flex-shrink: 0;
   }
