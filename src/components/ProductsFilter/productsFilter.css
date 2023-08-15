@@ -59,19 +59,43 @@ line-height: normal;
   }
 
   .checkInputs{
-    min-width: 250%;
+    min-width: 270%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
-
+  .checkInputs label{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
   .itemsnumber{
     margin-left: auto;
   }
-
+  .filterName{
+    color: var(--primary, #3D3939);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
   .checkInput{
     width: 22.849px;
 height: 18px;
 flex-shrink: 0;
+  }
+
+
+  @media screen and (max-width: 550px) {
+    .filterContainer .filters{
+      display: none;
+  }
+
+  .filterContainer .products{
+    width: 100%;   
+    height: auto;
+}
   }

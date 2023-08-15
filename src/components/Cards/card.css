@@ -102,3 +102,67 @@ line-height: normal;
     font-weight: 600;
     line-height: normal;
   }
+
+
+  @media screen and (max-width: 550px) {
+    .accomodationCard{
+  width: 100%;
+  height: auto;
+ 
+  }
+  .accomodationCard .imageArea{
+      position: relative;
+    display: inline-block;
+    width: 30%;
+  }
+  
+  .accomodationCard .imageArea img{
+      width: 100%;
+      height: auto;
+  }
+
+  .accomodationCard .infoArea h3{
+    color: var(--primary, #3D3939);
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+  .accomodationCard .infoArea .cardLinks a{
+    font-size: 10px;
+    margin-right: 5px;
+  }
+
+  .accomodationCard .infoArea p{
+    font-size: 10px;
+    white-space: nowrap;      /* Prevents text from wrapping */
+  overflow: hidden;         /* Hides overflowed content */
+  text-overflow: ellipsis;  /* Displays ellipses (...) when text overflows */
+  max-width: 110%;
+  }
+
+  .accomodationCard .priceArea{
+    
+    padding-right: 10px;
+  }
+
+  .accomodationCard .priceArea button{
+    display: flex;
+width: 74px;
+padding: 10px 4px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: auto;
+font-size: 8px;
+  }
+
+  .accomodationCard .priceArea p, .accomodationCard .priceArea p span{
+    font-size: 10px;
+  }
+  .accomodationCard .infoArea{
+    padding: 0.8rem 0.4rem;  
+  }
+  }
